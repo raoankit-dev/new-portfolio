@@ -1,0 +1,12 @@
+# Netlify configuration for a Vite + React site.
+
+[build]
+  command = "npm run build"   # how Netlify builds your site
+  publish = "dist"            # the folder it serves
+
+# Single-Page-App fallback: send all routes to index.html so the
+# React app handles them (prevents 404s on refresh / direct links).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

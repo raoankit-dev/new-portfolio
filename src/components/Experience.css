@@ -1,0 +1,63 @@
+.timeline {
+  position: relative;
+  padding-left: 28px;
+}
+
+/* The vertical line running down the timeline */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: var(--border);
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -28px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.timeline-header h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.timeline-period {
+  font-size: 0.85rem;
+  color: var(--text-soft);
+}
+
+.timeline-company {
+  color: var(--accent);
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.timeline-desc {
+  color: var(--text-soft);
+}

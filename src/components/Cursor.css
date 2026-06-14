@@ -1,0 +1,45 @@
+.cursor-dot,
+.cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  pointer-events: none; /* never block clicks */
+  z-index: 9999;
+  /* center the element on the pointer */
+  translate: -50% -50%;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--accent);
+}
+
+.cursor-ring {
+  width: 34px;
+  height: 34px;
+  border: 2px solid var(--accent);
+  transition: width 0.2s ease, height 0.2s ease, background 0.2s ease,
+    opacity 0.2s ease;
+}
+
+/* Ring grows + tints when hovering a link/button */
+.cursor-ring.hovering {
+  width: 52px;
+  height: 52px;
+  background: var(--accent-soft);
+}
+
+.cursor-dot.hidden,
+.cursor-ring.hidden {
+  opacity: 0;
+}
+
+/* Touch devices have no real cursor — hide the custom one entirely. */
+@media (hover: none), (pointer: coarse) {
+  .cursor-dot,
+  .cursor-ring {
+    display: none;
+  }
+}
