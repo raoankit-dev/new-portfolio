@@ -14,9 +14,9 @@
 // =============================================================
 
 export const emailConfig = {
-  serviceId: "",   // e.g. "service_abc123"
-  templateId: "",  // e.g. "template_xyz789"
-  publicKey: "",   // e.g. "AbCdEfGhIjKlMnOp"
+  serviceId: "service_u0p0kcv",   // e.g. "service_abc123"
+  templateId: "template_m8tvuhg",  // e.g. "template_xyz789"
+  publicKey: "fMZ-WwzYtKEmsUEx2",   // e.g. "AbCdEfGhIjKlMnOp"
 };
 
 // True only when all three values are filled in.

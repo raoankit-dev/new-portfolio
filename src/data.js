@@ -31,20 +31,20 @@ export const profile = {
 
 // Work / education timeline (newest first looks best).
 export const experience = [
-  {
-    role: "Frontend Developer",
-    company: "Company Name",
-    period: "2024 — Present",
-    description:
-      "Building responsive web apps with React. Worked on UI components, animations and performance.",
-  },
-  {
-    role: "Web Development Intern",
-    company: "Startup Inc.",
-    period: "2023 — 2024",
-    description:
-      "Helped ship landing pages and learned modern frontend tooling like Vite and Git.",
-  },
+  // {
+  //   role: "Frontend Developer",
+  //   company: "Company Name",
+  //   period: "2024 — Present",
+  //   description:
+  //     "Building responsive web apps with React. Worked on UI components, animations and performance.",
+  // },
+  // {
+  //   role: "Web Development Intern",
+  //   company: "Startup Inc.",
+  //   period: "2023 — 2024",
+  //   description:
+  //     "Helped ship landing pages and learned modern frontend tooling like Vite and Git.",
+  // },
 ];
 
 // Skills — the `icon` matches a key in the icon map inside Skills.jsx.
@@ -62,27 +62,27 @@ export const skills = [
 // Projects — add as many as you like.
 export const projects = [
   {
-    title: "Project One",
+    title: "Weather App",
     description:
-      "A short description of what this project does and the tech you used to build it.",
-    tags: ["React", "CSS", "Vite"],
-    link: "#",
-    repo: "#",
+      "It's my latest project, Using the Weather API. It has a nice UI and you can search temperature of any city and see the 5 day forcast.",
+    tags: ["HTML", "CSS", "Js","API"],
+    link: "https://orgweather.netlify.app/",
+    repo: "https://github.com/raoankit-dev/Weather-app.git",
   },
   {
-    title: "Project Two",
+    title: "Old Portfolio",
     description:
-      "Another cool thing you built. Explain the problem it solves in one or two sentences.",
-    tags: ["JavaScript", "API"],
-    link: "#",
-    repo: "#",
+      "My first Portfolio website using plane HTML, CSS and some JavaScript.",
+    tags: ["HTML", "CSS","Js"],
+    link: "https://github.com/raoankit-dev/portfolio.git",
+    repo: "https://raoankit.netlify.app/",
   },
   {
-    title: "Project Three",
+    title: "TO-DO App",
     description:
-      "Describe a project you're proud of. Keep it short and highlight the impact.",
-    tags: ["React", "Framer Motion"],
-    link: "#",
-    repo: "#",
+      "It's my To-do app, which I made while learning JavaScript.",
+    tags: ["HTML", "CSS","Js"],
+    link: "https://raoankit-dev.github.io/todo-app/",
+    repo: "https://github.com/raoankit-dev/todo-app.git",
   },
 ];

@@ -11,7 +11,7 @@ export default function Experience() {
           Experience
         </motion.h2>
         <motion.p className="section-subtitle" variants={fadeUp}>
-          A quick look at where I've worked.
+          Although I don't have traditional corporate experience yet, I have translated my passion for software development into self-driven learning, successfully teaching myself several programming languages and core development principles. 
         </motion.p>
 
         <div className="timeline">
