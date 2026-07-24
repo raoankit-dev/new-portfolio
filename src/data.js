@@ -3,6 +3,8 @@
 //  This is the only file you need to change to make the site yours.
 // =============================================================
 
+import { link } from "framer-motion/client";
+
 export const profile = {
   name: "Ankit Yadav",
   role: "A Software Developer",
@@ -85,4 +87,11 @@ export const projects = [
     link: "https://raoankit-dev.github.io/todo-app/",
     repo: "https://github.com/raoankit-dev/todo-app.git",
   },
+  {
+    title: "Quick-Notes-App",
+    description: "Built a responsive React.js note-taking app with add, edit, delete, and Local Storage support for persistent notes.",
+    tags: ["React.js","HTML5","Javascript","CSS3"],
+    link:"https://quick-noteapp.netlify.app/",
+    repo:"https://github.com/raoankit-dev/Quick-Notes.git"
+  }
 ];
