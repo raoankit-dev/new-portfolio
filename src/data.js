@@ -68,7 +68,7 @@ export const projects = [
     description:
       "It's my latest project, Using the Weather API. It has a nice UI and you can search temperature of any city and see the 5 day forcast.",
     tags: ["HTML", "CSS", "Js","API"],
-    link: "https://orgweather.netlify.app/",
+    link: "https://raoankit-weather.netlify.app/",
     repo: "https://github.com/raoankit-dev/Weather-app.git",
   },
   {
@@ -76,8 +76,8 @@ export const projects = [
     description:
       "My first Portfolio website using plane HTML, CSS and some JavaScript.",
     tags: ["HTML", "CSS","Js"],
-    link: "https://github.com/raoankit-dev/portfolio.git",
-    repo: "https://raoankit.netlify.app/",
+    link: "https://raoankit.netlify.app/",
+    repo: "https://github.com/raoankit-dev/portfolio.git",
   },
   {
     title: "TO-DO App",
@@ -91,7 +91,14 @@ export const projects = [
     title: "Quick-Notes-App",
     description: "Built a responsive React.js note-taking app with add, edit, delete, and Local Storage support for persistent notes.",
     tags: ["React.js","HTML5","Javascript","CSS3"],
-    link:"https://quick-noteapp.netlify.app/",
+    link:"https://raoankit-quick-notes.netlify.app/",
     repo:"https://github.com/raoankit-dev/Quick-Notes.git"
+  },
+  {
+    title: "Movie-Detail App",
+    description: "A React-powered movie exploration app designed to search, discover, and display detailed information about movies using dynamic API integration.",
+    tags: ["React.js","HTML5","Javascript","CSS3","API"],
+    link:"https://raoankit-movie-desk.netlify.app/",
+    repo:"https://github.com/raoankit-dev/Movie-Desk.git"
   }
 ];
