@@ -27,7 +27,7 @@ export default function Hero() {
         {/* Profile photo, or initials if no photo is set in data.js */}
         <motion.div className="hero-avatar" variants={fadeUp}>
           {profile.photo ? (
-            <img src={profile.photo} alt={profile.name} />
+            <img src="../src/assets/avatar.jpg" alt={profile.name} />
           ) : (
             <span className="hero-initials">{initials}</span>
           )}
