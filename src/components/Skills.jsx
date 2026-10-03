@@ -30,7 +30,7 @@ const iconMap = {
   "c++": SiCplusplus,
   c: SiC,
   python: SiPython,
-  Postgresql: SiPostgresql,
+  postgresql: SiPostgresql,
 };
 
 export default function Skills() {
