@@ -21,7 +21,7 @@ export const profile = {
     "Hey 👋 I'm a developer who loves building clean, fast and delightful web experiences. I'm currently learning React and enjoy turning ideas into interactive interfaces.",
   // Profile photo. Put your image at src/assets/profile.jpg and it will show.
   // Until then, your initials are shown automatically as a fallback.
-  photo: "./src/assets/avatar.jpg", // e.g. "/profile.jpg" if you place it in the public/ folder
+  photo: "../src/assets/avatar.jpg", // e.g. "/profile.jpg" if you place it in the public/ folder
   // Links — replace the # with your real URLs.
   socials: {
     github: "https://github.com/",
