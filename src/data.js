@@ -60,6 +60,7 @@ export const skills = [
   { name: "Git", icon: "git" },
   { name: "Python", icon: "python" },
   {name: "Postgresql", icon: "postgresql"},
+  {name: "FastAPI", icon: "fastapi"},
 ];
 
 // Projects — add as many as you like.

@@ -12,6 +12,7 @@ import {
   SiC,
   SiPython,
   SiPostgresql,
+  SiFastapi,
 } from "react-icons/si";
 import { skills } from "../data";
 import { fadeUp, stagger, onScroll } from "../animations";
@@ -31,6 +32,7 @@ const iconMap = {
   c: SiC,
   python: SiPython,
   postgresql: SiPostgresql,
+  fastapi: SiFastapi
 };
 
 export default function Skills() {
