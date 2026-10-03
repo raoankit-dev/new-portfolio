@@ -27,7 +27,7 @@ export const profile = {
     github: "https://github.com/",
     linkedin: "https://linkedin.com/",
     email: "ankitya797@gmail.com",
-    resume: "#", // link to your resume PDF (e.g. "/resume.pdf" in public/ folder)
+    resume: "./src/assets/Resume.pdf", // link to your resume PDF (e.g. "/resume.pdf" in public/ folder)
   },
 };
 
@@ -59,6 +59,7 @@ export const skills = [
   { name: "CSS3", icon: "css" },
   { name: "Git", icon: "git" },
   { name: "Python", icon: "python" },
+  {name: "Postgresql", icon: "postgresql"},
 ];
 
 // Projects — add as many as you like.
@@ -100,5 +101,12 @@ export const projects = [
     tags: ["React.js","HTML5","Javascript","CSS3","API"],
     link:"https://raoankit-movie-desk.netlify.app/",
     repo:"https://github.com/raoankit-dev/Movie-Desk.git"
+  },
+  {
+    title: "Expens Tracker(ExTracke)",
+    description: "A full-stack expense management platform featuring FastAPI APIs, authentication, SQLite database integration, expense CRUD operations, analytics, and AI-powered financial insights with a responsive React frontend.",
+    tags: ["React.js","FastAPI","SQLite","API"],
+    link:"https://extracke.vercel.app",
+    repo:"https://github.com/raoankit-dev/ExpneseFrontEnd.git"
   }
 ];
