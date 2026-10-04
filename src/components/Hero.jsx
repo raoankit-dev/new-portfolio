@@ -4,6 +4,7 @@ import { profile } from "../data";
 import { fadeUp, stagger } from "../animations";
 import { useTypingEffect } from "../hooks/useTypingEffect";
 import "./Hero.css";
+import avtarpic from "../assets/avatar.jpg"
 
 export default function Hero() {
   // The role text that types/deletes itself in a loop.
@@ -27,7 +28,7 @@ export default function Hero() {
         {/* Profile photo, or initials if no photo is set in data.js */}
         <motion.div className="hero-avatar" variants={fadeUp}>
           {profile.photo ? (
-            <img src="../src/assets/avatar.jpg" alt={profile.name} />
+            <img src={avtarpic} alt={profile.name} />
           ) : (
             <span className="hero-initials">{initials}</span>
           )}
